@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моят Шаблон</title>
+    <style>
+        /* Базови стилове за изчистен дизайн */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background: #2c3e50;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #34495e;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 15px;
+            margin: 0 5px;
+            border-radius: 3px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #1abc9c;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background: #2c3e50;
+            color: white;
+            font-size: 14px;
+        }
+
+        /* Адаптивност за мобилни устройства */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav a {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Шапка на сайта -->
+    <header>
+        <h1>Добре дошли в моя сайт</h1>
+        <p>Кратко описание или мото на страницата</p>
+    </header>
+
+    <!-- Навигация -->
+    <nav>
+        <a href="#">Начало</a>
+        <a href="#">За нас</a>
+        <a href="#">Услуги</a>
+        <a href="#">Контакти</a>
+    </nav>
+
+    <!-- Основно съдържание -->
+    <main class="container">
+        <section>
+            <h2>Заглавие на секцията</h2>
+            <p>Това е примерно съдържание за вашия нов уебсайт. Можете да редактирате този текст и да добавите вашите собствени материали, изображения или функционалности.</p>
+        </section>
+    </main>
+
+    <!-- Футър (Долна част) -->
+    <footer>
+        <p>&copy; 2026 Всички права запазени.</p>
+    </footer>
+
+</body>
+</html>
